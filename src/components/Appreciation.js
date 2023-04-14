@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import ScrollHandle from "../js/Scroll";
 
 import {Helmet} from "react-helmet";
-import FirebaseActivation from '../js/FirebaseActivation';
+// import FirebaseActivation from '../js/FirebaseActivation';
 
 
 
@@ -14,7 +14,7 @@ const Appreciation = ({images}) => {
 
     
 
-    FirebaseActivation();
+//     FirebaseActivation();
                 
                   
     //SCROLLING NAVBAR
