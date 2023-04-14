@@ -11,7 +11,7 @@ import SimpleSliderTrips from "./ActivitiesSliders/SimpleSliderTrips";
 import SimpleSliderAwards from "./ActivitiesSliders/SimpleSliderAwards";
 
 import {Helmet} from "react-helmet";
-import FirebaseActivation from '../js/FirebaseActivation';
+// import FirebaseActivation from '../js/FirebaseActivation';
 
   
 
@@ -21,7 +21,7 @@ import FirebaseActivation from '../js/FirebaseActivation';
 const Activities = ({images}) => {
 
     //FIREBASE
-    FirebaseActivation();
+//     FirebaseActivation();
     //-------------------
 
 
