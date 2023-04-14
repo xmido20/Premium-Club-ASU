@@ -19,7 +19,7 @@ const Home = ({images}) => {
 
     
     //FIREBASE
-    FirebaseActivation();
+//     FirebaseActivation();
     //-------------------
 
     
