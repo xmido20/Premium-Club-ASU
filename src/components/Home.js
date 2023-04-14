@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import $ from 'jquery';
 import ScrollHandle from '../js/Scroll';
 import {Helmet} from "react-helmet";
-import FirebaseActivation from '../js/FirebaseActivation';
+// import FirebaseActivation from '../js/FirebaseActivation';
 
 
 
