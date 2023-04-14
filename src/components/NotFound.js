@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/404.css';
 import {Helmet} from "react-helmet";
-import FirebaseActivation from '../js/FirebaseActivation';
+// import FirebaseActivation from '../js/FirebaseActivation';
 
 
 
