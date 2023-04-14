@@ -9,7 +9,7 @@ import FirebaseActivation from '../js/FirebaseActivation';
 
 const NotFound = ({images}) => {
     //FIREBASE
-    FirebaseActivation();
+//     FirebaseActivation();
 
     
     //-------------------
