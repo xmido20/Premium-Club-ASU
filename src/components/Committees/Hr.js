@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import ScrollHandle from "../../js/Scroll";
 import $ from 'jquery';
 import {Helmet} from "react-helmet";
-import FirebaseActivation from '../js/FirebaseActivation';
+// import FirebaseActivation from '../js/FirebaseActivation';
 
 
 
@@ -15,7 +15,7 @@ const HumanResourcesCommittee = ({images}) => {
 
 
     //FIREBASE
-    FirebaseActivation();
+//     FirebaseActivation();
     //-------------------
 
     //SCROLLING NAVBAR
