@@ -44,8 +44,8 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 1. Clone the repository
    ```sh
-   git clone https://github.com/Mohamed3allam/Basmah-Foundation.git
-   cd Basmah-Foundation
+   git clone https://github.com/Mohamed3allam/Premium-Club-ASU.git
+   cd Premium-Club
 
     Install NPM packages
 
@@ -62,44 +62,6 @@ To get a local copy up and running follow these simple steps.
 3. To create a production build
     sh
     npm run build
-
-### Project Structure
-
-    premium-club-asu/
-    ├── public/
-    │   ├── index.html
-    │   └── ...
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── App.js
-    │   ├── index.js
-    │   └── ...
-    ├── .gitignore
-    ├── package.json
-    ├── README.md
-    └── ...
-
-
-### Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-    Fork the Project
-    Create your Feature Branch (git checkout -b feature/AmazingFeature)
-    Commit your Changes (git commit -m 'Add some AmazingFeature')
-    Push to the Branch (git push origin feature/AmazingFeature)
-    Open a Pull Request
-
-### License
-
-Distributed under the MIT License. See LICENSE for more information.
-
-### Contact
-
-    Author & Developer: Mohamed Allam
-    Website: Premium Club ASU
-    GitHub: Mohamed3allam
 
 ### Folder Structure
 
@@ -185,6 +147,28 @@ Distributed under the MIT License. See LICENSE for more information.
     ├── index.html
     ├── manifest.json
     └── robots.txt
+
+
+### Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+    Fork the Project
+    Create your Feature Branch (git checkout -b feature/AmazingFeature)
+    Commit your Changes (git commit -m 'Add some AmazingFeature')
+    Push to the Branch (git push origin feature/AmazingFeature)
+    Open a Pull Request
+
+### License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+### Contact
+
+    Author & Developer: Mohamed Allam
+    Website: Premium Club ASU
+    GitHub: Mohamed3allam
+
 
 
 This README was generated with ❤️ by Mohamed Allam for Premium Club ASU.
