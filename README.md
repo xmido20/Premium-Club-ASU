@@ -63,90 +63,83 @@ To get a local copy up and running follow these simple steps.
     sh
     npm run build
 
-### Folder Structure
+## Project Structure
 
-./
-├── .firebaserc
-├── .gitignore
-├── firebase.json
-├── firestore.indexes.json
-├── firestore.rules
-├── package-lock.json
-├── package.json
-├── README.md
-├── public/
-│   ├── 404.html
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-│   └── robots.txt
-├── src/
-│   ├── App.js
-│   ├── index.js
-│   ├── reportWebVitals.js
-│   ├── responsive.js
-│   ├── css/
-│   │   ├── 404.css
-│   │   ├── activities.css
-│   │   ├── allDescription.css
-│   │   ├── App.css
-│   │   ├── bootstrap.css
-│   │   ├── bootstrap.min.css
-│   │   ├── crew.css
-│   │   ├── events.css
-│   │   ├── footer.css
-│   │   ├── headers.css
-│   │   ├── homePage.css
-│   │   ├── hr.css
-│   │   ├── imgSize.css
-│   │   ├── logistics.css
-│   │   ├── marketing.css
-│   │   ├── media.css
-│   │   ├── navbar.css
-│   │   ├── pr.css
-│   │   ├── scrollbar.css
-│   │   ├── slick-theme.css
-│   │   └── slick.css
-│   ├── js/
-│   │   ├── bootstrap.js
-│   │   ├── FirebaseActivation.js
-│   │   ├── firebaseConfig.js
-│   │   ├── myFile.js
-│   │   └── slick.min.js
-│   ├── pages/
-│   │   ├── Activites.js
-│   │   ├── Application.js
-│   │   ├── Crew.js
-│   │   ├── Home.js
-│   │   ├── NotFound.js
-│   │   ├── ActivitiesSliders/
-│   │   │   ├── SimpleSliderAwards.js
-│   │   │   ├── SimpleSliderClosing.js
-│   │   │   ├── SimpleSliderECS.js
-│   │   │   ├── SimpleSliderFinalConference.js
-│   │   │   ├── SimpleSliderOpening.js
-│   │   │   ├── SimpleSliderOrientation.js
-│   │   │   └── SimpleSliderSessions.js
-│   │   ├── Committees/
-│   │   │   ├── Academic.js
-│   │   │   ├── Events.js
-│   │   │   ├── Hr.js
-│   │   │   ├── Logistics.js
-│   │   │   ├── Marketing.js
-│   │   │   ├── Media.js
-│   │   │   └── Pr.js
-│   │   └── components/
-│   │       ├── BoardCrew.js
-│   │       ├── ClientNavbar.js
-│   │       ├── FooterNew.js
-│   │       └── Loader.js
-└── build/
-    ├── 404.html
-    ├── asset-manifest.json
-    ├── favicon.ico
-    ├── index.html
-    ├── manifest.json
-    └── robots.txt
+- **/.firebaserc** - Firebase configuration
+- **/.gitignore** - Git ignore file
+- **/firebase.json** - Firebase settings
+- **/firestore.indexes.json** - Firestore indexes
+- **/firestore.rules** - Firestore security rules
+- **/package-lock.json** - Lock file for npm
+- **/package.json** - Project metadata and dependencies
+- **/README.md** - Project overview and documentation
+- **/public/** - Publicly accessible files
+  - **/404.html** - Custom 404 error page
+  - **/favicon.ico** - Favicon for the website
+  - **/index.html** - Main HTML file
+  - **/manifest.json** - Web app manifest
+  - **/robots.txt** - Instructions for web crawlers
+- **/src/** - Source code
+  - **/App.js**
+  - **/index.js**
+  - **/reportWebVitals.js**
+  - **/responsive.js**
+  - **/css/** - Stylesheets
+    - **/404.css**
+    - **/activities.css**
+    - **/allDescription.css**
+    - **/App.css**
+    - **/bootstrap.css**
+    - **/bootstrap.min.css**
+    - **/crew.css**
+    - **/events.css**
+    - **/footer.css**
+    - **/headers.css**
+    - **/homePage.css**
+    - **/hr.css**
+    - **/imgSize.css**
+    - **/logistics.css**
+    - **/marketing.css**
+    - **/media.css**
+    - **/navbar.css**
+    - **/pr.css**
+    - **/scrollbar.css**
+    - **/slick-theme.css**
+    - **/slick.css**
+  - **/js/** - JavaScript files
+    - **/bootstrap.js**
+    - **/FirebaseActivation.js**
+    - **/firebaseConfig.js**
+    - **/myFile.js**
+    - **/slick.min.js**
+  - **/pages/** - Application pages
+    - **/Activities.js**
+    - **/Application.js**
+    - **/Crew.js**
+    - **/Home.js**
+    - **/NotFound.js**
+    - **/ActivitiesSliders/** - Sliders for activities
+      - **/SimpleSliderAwards.js**
+      - **/SimpleSliderClosing.js**
+      - **/SimpleSliderECS.js**
+      - **/SimpleSliderFinalConference.js**
+      - **/SimpleSliderOpening.js**
+      - **/SimpleSliderOrientation.js**
+      - **/SimpleSliderSessions.js**
+    - **/Committees/** - Committee-specific pages
+      - **/Academic.js**
+      - **/Events.js**
+      - **/Hr.js**
+      - **/Logistics.js**
+      - **/Marketing.js**
+      - **/Media.js**
+      - **/Pr.js**
+    - **/components/** - Reusable components
+      - **/BoardCrew.js**
+      - **/ClientNavbar.js**
+      - **/FooterNew.js**
+      - **/Loader.js**
+
 
 
 ### Contributing
